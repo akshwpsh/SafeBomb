@@ -1,0 +1,77 @@
+# Unity 프로젝트용 .gitignore
+
+## Unity 생성 파일
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+## Unity 메타 파일 (선택적 - 팀 협업 시 주석 해제)
+# /[Aa]ssets/[Mm]eta/
+
+## Unity Asset Store 생성 폴더
+[Aa]ssets/[Aa]sset[Ss]tore/*
+
+## 자동 재생성 파일
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/[Pp]lugin[Ss]collaborator/
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains/
+
+## Visual Studio / Rider
+.vs/
+*.sln
+*.csproj
+*.userprefs
+
+## OS 생성 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## 빌드 결과
+/[Aa]ssets/[Ss]treamingAssets/
+/[Aa]ssets/[Ss]cene[0-9]*/
+
+## 캐시 및 임시 파일
+*.cache
+*.tmp
+*.temp
+
+## 패키지 관리자
+/[Pp]ackages/*
+/[Pp]rojectSettings/[Pp]ackageManager/
+
+## 로그 파일
+*.log
+*.txt
+
+## Unity Cloud Build
+/[Bb]uild[Cc]loud/
+
+## Unity Test Framework
+/[Aa]ssets/[Tt]est[Rr]esults/
+
+## Unity Analytics
+/[Aa]ssets/[Aa]nalytics/
+
+## Unity Ads
+/[Aa]ssets/[Aa]ds/
+
+## Unity Collab
+.collab/
+
+## Unity Hub
+UnityHub/
+
+## 버전 관리 제외 파일
+*.pidb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
